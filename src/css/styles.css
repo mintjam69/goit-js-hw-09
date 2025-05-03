@@ -6,6 +6,12 @@
 */
 /* Common styles */
 @import url('./reset.css');
+/* My styles */
+@import url('./1-gallery.css');
+@import url('./2-form.css');
+
+/* /My styles */
+
 @import url('./base.css');
 @import url('./container.css');
 @import url('./animations.css');
