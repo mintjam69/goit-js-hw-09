@@ -8,7 +8,7 @@ const form = document.querySelector(".feedback-form");
 form.addEventListener("input", event => {
     //Витягуємо ім'я та нове значення   з поля форми, яке було змінено 
     const { name, value } = event.target;
-    //Онолює об'єкт formData з новим значенням
+    //Онолюєм об'єкт formData з новим значенням
     formData[name] = value;
     localStorage.setItem('feedback-form-state', JSON.stringify(formData));
 });
